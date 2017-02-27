@@ -1,0 +1,131 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-color: #dedede;
+	font-family: "Microsoft YaHei"；
+}
+ul li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+table{
+	border-collapse:collapse;
+}
+img{
+	width: 80%;
+}
+.header{
+	width: 100%;
+	background: rgba(0,0,0,0.7);
+}
+.header span{
+	display: inline-block;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	margin-left: 50px;
+	color: #fff;
+}
+.header ul{
+	float: right;
+	margin-right: 50px;
+}
+.header ul li{
+	float: left;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+.header ul li a{
+	color: #fff;
+	padding: 0 20px;
+}
+.header ul li a:hover{
+	color: #666;
+}
+.titleOne,.titleTwo,.titleThree,.titleFour{
+	margin: 30px;
+	padding: 30px;
+	background-color: #fff;
+}
+.titleOne h2,.titleTwo h2,.titleThree h2,.titleFour h2{
+	margin: 20px 0;
+}
+.titleOne h3{
+	margin: 20px 0;
+	color: #666;
+	font-size: 14px;
+}
+.titleOne span ,.titleThree span{
+	display: inline-block;
+	color: #666;
+	font-size: 12px;
+	margin-bottom: 20px;
+}
+.titleOne p:nth-child(5){
+	text-indent: 2em;
+}
+.titleOne p ,.titleTwo p{
+	margin: 5px 0;
+}
+.titleThree ol{
+	margin-left: 100px;
+}
+.titleThree ol li{
+	height: 40px;
+	line-height: 40px;
+	text-align: left;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.titleThree table tr td{
+	border: 1px solid #000;
+	padding: 5px;
+	font-weight: bold;
+}
+.titleFour form{
+	margin-left: 10%;
+}
+.titleFour form label{
+	display: inline-block;
+	margin-top: 20px;
+	font-weight: bold;
+}
+.titleFour form label span{
+	display: inline-block;
+	width: 150px;
+	height: 34px;
+	line-height: 34px;
+	text-align: right;
+}
+.titleFour form label .input{
+	height: 30px;
+	padding: 0 5px;
+	color: #000;
+	border-radius: 2px;
+	border:1px solid #e2e2e2;
+}
+.titleFour form p{
+	font-size: 14px;
+	color: #666;
+	margin-left: 150px;
+	margin-top: 10px;
+}
+.titleFour form textarea{
+	padding: 5px;
+}
+.sub{
+	width: 80%;
+	margin-top: 10px;
+	color: #fff;
+	background: green;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border: 0;
+}
